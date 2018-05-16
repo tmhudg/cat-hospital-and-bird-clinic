@@ -1,0 +1,58 @@
+<footer class="">
+    <div class="container site-footer">
+	    <div class="row">
+		    <div class="col-lg-4">
+			    <div class="h3">Hours</div>
+			    <div class="h5">By Appointment Only</div>
+			    <table class="table table-sm">
+			    {{ range $.Site.Data.footer.Hours }}
+			    	<tr>
+				    	<td>{{ index . "Day"}}</td><td>{{ index . "Time" }}</td>
+			    	</tr>
+			    {{ end }}
+			    </table>
+			    <div><p>For after hours/emergencies, please contact: Tufts Grafton: <a href="tel:508-839-5395">508-839-5395</a><br/>
+			    (24 hours, all species)</p><p>VCA Northboro: <a href="tel:508-393-8339">508-393-8339</a><br/>(Extended hours, cats only)</p></div>
+		    </div>
+		    <div class="col-lg-4">
+			    <div class="h3">Contact Us</div>
+			    <div class="pb-3">
+					{{- with .Site.Params.street_address -}}
+					{{ . }}
+					{{ end }}
+			    </div>
+			    <div class="mb-3 pb-3">
+					{{- with .Site.Params.phone -}}
+					Phone: <a href="tel:{{ . }}">{{ . }}</a>
+					{{ end }}
+			    </div>
+			    <div class="my-3 py-3">
+				    <a href="/find-us">Directions</a>
+			    </div>
+			    <div class="h3 my-3 py-3">
+				    Follow Us!
+			    </div>
+			    <div class="facebook-link">
+				    <a href="https://www.facebook.com/cathospitalandbirdclinic/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+			    </div>
+		    </div>
+		    <div class="col-lg-4">
+			    <div class="h3">Affiliations</div>
+			    <div class="pb-3">
+				    <a href="http://www.aav.org/" target="_blank"><img class="img-fluid" src="/images/AAVlogo.png">
+			    </div>
+			    <div class="mb-3 pb-3">
+				    <a href="http://www.avma.org/" target="_blank"><img class="img-fluid" src="/images/AVMALogo.png">
+			    </div>
+		    </div>
+	    </div>
+		<a class="text-white" href="#">{{ i18n "backToTop" }}</a>
+	</div>
+	<div class="container copyright-footer">
+		<div>
+			{{ $dateFormat := "2006" }}
+			Copyright 2014 - <time datetime="{{ .Date.Format "2006" }}">{{ .Date.Format $dateFormat }}</time> by {{ .Site.Title }} | 
+			All Rights Reserved | Design by <a href="http://tranzasoftware.com" target="_blank">Tranza Software</a>
+		</div>
+    </div>
+</footer>

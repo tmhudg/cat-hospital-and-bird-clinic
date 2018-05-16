@@ -1,0 +1,10 @@
+<div class="h3 border-bottom border-danger">
+	Tags
+</div>
+<ul class="fa-ul">
+	{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    <li>
+    	<span class="fa-li"><i class="fas fa-tag cat-purple"></i></span><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+    </li>
+	{{ end }}
+</ul>

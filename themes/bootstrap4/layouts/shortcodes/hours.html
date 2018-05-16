@@ -1,0 +1,7 @@
+<table class="table table-sm table-striped table-bordered table-light">
+{{ range $.Site.Data.footer.Hours }}
+	<tr>
+    	<td>{{ index . "Day"}}</td><td>{{ index . "Time" }}</td>
+	</tr>
+{{ end }}
+</table>

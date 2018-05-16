@@ -1,0 +1,15 @@
+{{ $list := .Get "list"}}
+<div class="mb-3 pb-1">
+	{{ if .Get "showicon" }}
+	<span class="fa-layers fa-fw fa-2x" >
+		<i class="fas fa-circle cat-purple"></i>
+		<i class="fa-inverse fas fa-plus" data-fa-transform="shrink-6"></i>
+	</span>
+	{{ end }}
+	<span class="h2 border-bottom border-danger">{{ $list }}</span>
+</div>
+<ul class="fa-ul">
+{{ range index $.Site.Data.lists $list }}
+	<li class="mb-2"><span class="fa-li"><i class="fas fa-check-circle cat-purple"></i></span>{{ . }}</li>
+{{ end }}
+</ul>

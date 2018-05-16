@@ -1,0 +1,15 @@
+<h3>What Our Clients Are Saying</h3>
+<div id="carouselTestimonials" class="carousel slide testimonial-carousel text-center p-3" data-ride="carousel">
+	<ol class="carousel-indicators">
+	{{ range $idx, $element := $.Site.Data.lists.Testimonials }}
+		<li data-target="#carouselTestimonials" data-slide-to="{{- $idx -}}" class="{{ if eq $idx 0 }} active {{ end }}"></li>
+	{{ end }}
+	</ol>
+	<div class="carousel-inner">
+	{{ range $idx, $element := $.Site.Data.lists.Testimonials }}
+		<div class="carousel-item text-white font-italic {{ if eq $idx 0 }} active {{ end }}">
+		{{ . }}
+		</div>
+	{{ end }}
+	</div>
+</div>

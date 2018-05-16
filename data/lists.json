@@ -1,0 +1,74 @@
+{
+	"Expert Care For": [
+		"Cats",
+		"Birds",
+		"Rabbits",
+		"Ferrets",
+		"Exotic Pets",
+		"Reptiles"
+	],
+	"Wellness": [
+		"Exams",
+		"Vaccinations",
+		"Parasite Control",
+		"Nail/Wing Trims",
+		"Soft Paws",
+		"Pharmacy"
+	],
+	"Surgical Services": [
+		"Preventative Dentistry",
+		"Cleaning/Extraction Cats/Ferrets",
+		"Dental Procedures for Rabbits & Small Mammals",
+		"Neuters/Spays",
+		"Soft Tissue, Biopsies",
+		"Orthopedics"
+	],
+	"Boarding": [
+		"Cats",
+		"Ferrets",
+		"Rabbits",
+		"Other species on request"
+	],
+	"Medical Services": [
+		"Laboratory/Urinalysis",
+		"Radiology",
+		"Internal Medicine",
+		"Cardiac (including Echocardiography and ECG)",
+		"Ultrasound",
+		"Intensive Care",
+		"Dermatology, Acupuncture, Herbal Medicine",
+		"Cytology and Histopathology"
+	],
+	"Testimonials": [
+		"I’ve been coming here for a little over a year & I love it! I make the hour trip for a reason!",
+		"Awesome and extremely knowledgeable and trustworthy",
+		"Great Team – Always leaving confident the ferrets and cat are well!",
+		"This place is wonderful. I wasn’t rushed and when I needed to wait the doctor explained about it and how long…which wasn’t long at all. I’ve gone to another clinic for many years but I really enjoyed the care and information here! Thanks a lot."
+	],
+	"Services": [
+		{
+			"Title": "Care",
+			"Pic": "/images/catpiq.png",
+			"URL": "/services#care",
+			"Body": "We truly care about our patients and their owners. We get to know you and your pet and treat your pet like we treat our own pet – as one of the family."
+		},
+		{
+			"Title": "Experience",
+			"Pic": "/images/rabbitpiq.png",
+			"URL": "/services#experience",
+			"Body": "With over 20 years experience, we can diagnose and treat your pet with state of the art medicine and holistic procedures."
+		},
+		{
+			"Title": "Birds And Exotics",
+			"Pic": "/images/amazonparrot.png",
+			"URL": "/services#exotics",
+			"Body": "Care and treatment of exotic pets requires expertise not found in most veterinary offices. We have that expertise."
+		},
+		{
+			"Title": "Information",
+			"Pic": "/images/info.png",
+			"URL": "/services#info",
+			"Body": "Care for your pet continues after you leave the office. We provide the information you need to maintain the health of your pet."
+		}
+	]
+}

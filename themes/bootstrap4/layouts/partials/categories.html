@@ -1,0 +1,10 @@
+<div class="h3 border-bottom border-danger">
+	Categories
+</div>
+<ul class="fa-ul">
+	{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+    <li>
+    	<span class="fa-li"><i class="fas fa-angle-right cat-purple"></i></span><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ humanize $name }}</a> ({{ $taxonomy.Count }})
+    </li>
+	{{ end }}
+</ul>

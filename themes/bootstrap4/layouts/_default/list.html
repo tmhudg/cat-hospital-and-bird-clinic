@@ -1,0 +1,69 @@
+{{ define "schema-dot-org" }}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Blog",
+  {{- /* Google recommends the headline be no more than 110 characters */}}
+  "headline": "{{ substr .Site.Title 0 110 }}",
+  "url" : "{{ printf "%s" .Permalink }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Params.author }}"
+  },
+  {{- $ISO8601 := "2006-01-02T15:04:05-07:00" }}
+  {{- if not .Date.IsZero }}
+  "dateModified": "{{ .Date.Format $ISO8601 }}",
+  {{- end }}
+  {{- with .Site.Social.GooglePlus }}
+  "publisher": "{{ printf "%s" . }}",
+  {{- end }}
+  {{- /* all of the site's categories/tags, from Hugo's tpl/template_embedded.go */}}
+  "keywords": "{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ printf "%s," $term }}{{ end }}{{ end }}"
+  {{- with .Site.Params.description -}}
+  ,
+  "description": "{{- . -}}"
+  {{- end }}
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+{{ .Content }}
+<div class="row">
+	<div class="col-9">
+		<div class="h3 border-bottom border-danger mb-3">
+			Articles with handy information you can use day in and day out!
+		</div>
+		{{ $truncate := default true .Site.Params.truncate }}
+		{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+		{{ range $paginator.Pages }}
+			{{ if $truncate }}
+				{{ .Render "summary" }}
+			{{ else }}
+				{{ .Render "content" }}
+			{{ end }}
+		{{ end }}
+		
+		{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+			{{ partial "pagination.html" . }}
+		{{ end }}
+	</div>
+	<div class="col">
+		<div class="h3 border-bottom border-danger">
+			Handouts
+		</div>
+		<ul class="fa-ul">
+			<li>
+				<span class="fa-li"><i class="fas fa-file-pdf cat-purple"></i></span><a href="/dvm360-top10felinehandouts.pdf" target="_blank">Feline Handout</a>
+			</li>
+		</ul>
+		<div>
+			{{ partial "categories.html" . }}
+		</div>
+		<div>
+			{{ partial "tags.html" . }}
+		</div>
+	</div>
+{{ end }}
+
+{{- /* vim: set ts=2 sw=2 et: */}}

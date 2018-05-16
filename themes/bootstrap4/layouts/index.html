@@ -1,0 +1,27 @@
+
+{{ define "main" }}
+    {{ block "header" . }}
+    <header class="site-header">
+      <div class="container">
+	      	<div>
+	      	<img src="/images/header.jpg" class="img-fluid"/>
+	      	</div>
+	      	<div class="row text-center mt-3 border-bottom border-danger pb-3">
+		      	<div class="col">
+			      	{{- with .Site.Params.street_address -}}
+			      	{{ . }}
+			      	{{ end }}
+		      	</div>
+		      	<div class="col">
+			      	{{- with .Site.Params.phone -}}
+			      	Phone: <a href="tel:{{ . }}">{{ . }}</a>
+			      	{{ end }}
+		      	</div>
+      		</div>
+      </div>
+    </header>
+    {{ end }}
+
+		<!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+		{{.Content}}
+{{ end }}
