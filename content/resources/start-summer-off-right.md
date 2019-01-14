@@ -1,7 +1,7 @@
 ---
 title: "Start Summer Off Right"
 type: "post"
-date: 2017-06-01
+date: 2018-06-01
 draft: false
 categories:
 - Health

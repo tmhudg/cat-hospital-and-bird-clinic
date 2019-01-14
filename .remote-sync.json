@@ -1,0 +1,21 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "transport": "ftp",
+  "uploadOnSave": false,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "ehub48.webhostinghub.com",
+  "port": "21",
+  "source": "public",
+  "target": "/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "catftp@cathospitalandbirdclinic.com",
+  "password": "UJb.&xTe,*7)",
+	"difftool":"split-diff",
+  "watch": []
+}
