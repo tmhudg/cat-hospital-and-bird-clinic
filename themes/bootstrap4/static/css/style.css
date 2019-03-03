@@ -257,8 +257,6 @@ section + #disqus_thread {
   margin-top: 1rem;
 }
 
-// style all blockquotes, not just Bootstrap default of class="blockquote"
-// see: node_modules/bootstrap/scss/_type.scss
 article blockquote {
   margin-bottom: $spacer;
   font-size: $blockquote-font-size;
@@ -303,7 +301,7 @@ article div.highlight {
 .site-footer a:hover {
 	color: gray;
 }
-.site-footer .h3, .site-footer .h5{
+.site-footer .h3, .site-footer .h5, .site-footer table {
 	color: white;
 }
 .copyright-footer {
