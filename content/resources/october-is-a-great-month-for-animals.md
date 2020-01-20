@@ -1,7 +1,7 @@
 ---
 title: "October Is a Great Month for Animals"
 type: "post"
-date: 2018-10-01
+date: 2019-10-01
 draft: false
 categories:
 - Behavior

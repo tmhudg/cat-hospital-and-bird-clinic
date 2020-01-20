@@ -1,7 +1,7 @@
 ---
 title: "Your Pet's Skin; There's a Lot to Cover!"
 type: "post"
-date: 2018-09-01
+date: 2019-09-01
 draft: false
 categories:
 - Health
