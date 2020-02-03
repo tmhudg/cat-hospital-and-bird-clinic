@@ -11,7 +11,7 @@ draft: false
 		<h2>Voted "Best of Worcester" !!</h2>
 		<p>Thanks to our outstanding clients and wonderful staff, we've been selected for the <b>Best of Worcester Award!</b></p>
 		<p>Call us for an appointment for your pet today and experience our quality and caring for yourself.</p>
-		<a href="https://worcester.2019managementbest-ofselection.com/PressReleaseub.aspx?cc=DMMV-VBMG-XQCC" target="_blank">Press Relese</a>
+		<a href="https://worcester.2019managementbest-ofselection.com/PressReleaseub.aspx?cc=DMMV-VBMG-XQCC" target="_blank">Press Release</a>
 	</div>
 	<div class="col">
 		<a href="https://worcester.2019managementbest-ofselection.com/PressReleaseub.aspx?cc=DMMV-VBMG-XQCC" target="_blank">
