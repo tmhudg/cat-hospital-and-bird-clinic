@@ -23,6 +23,15 @@ body {
 
 }
 
+.covid {
+  background-color: rgb(226, 217, 217);
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.covid-header {
+  text-align: center;
+  color: red;
+}
 .bestofworcester {
   background-color: #f69e8c;
   padding: 10px;
