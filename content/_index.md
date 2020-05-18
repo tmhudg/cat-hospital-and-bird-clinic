@@ -11,16 +11,13 @@ draft: false
 		<h2 class="covid-header">** NOTICE **</h2>
 		<p class="p1"><span class="s1">Dear Clients, regarding Covid 19 and our current availability:</span></p>
 		<p class="p1"><span class="s1">Please help us keep our doors open and our staff and you virus free.</span></p>
-		<p class="p1"><span class="s1">We are asking you to observe social separation.</span></p>
+		<p class="p1"><span class="s1">We have implemented a new procedure for pet care at this time:</span></p>
 		<ul>
-		<li class="p1"><span class="s1">Please keep three feet back from the front desk and counter.</span></li>
-		<li class="p1"><span class="s1">We are allowing only one client/family in the waiting room at a time.  Please take a seat while you are waiting .</span></li>
-		<li class="p1"><span class="s1">As needed we will ask you to wait in your vehicle and call you on your cell when ready.</span></li>
+		<li class="p1"><span class="s1">Note that our hours are subject to change. Please call ahead to be sure we are open.</span></li>
+		<li class="p1"><span class="s1">Please call the office when you arrive at the building. We will take your information and let you know when you should place your pet, in a carrier, on a table outside the front door.</span></li>
+		<li class="p1"><span class="s1">For everyone's safety, clients are no longer admitted to the building.</span></li>
 		</ul>
-		<p class="p1"><span class="s1">The doctor or staff will ask you about your pet and explain anything that will be done.  Your pet will then be taken into an exam room or upstairs to our treatment room to be examined and treated while you wait in the lobby or your vehicle.</span></p>
-		<p class="p1"><span class="s1">Please call ahead if you need food or medications for your pet.  If you are sick, sneezing, coughing or have a fever, please have someone else bring your pet if they must be seen, or reschedule whenever possible.</span></p>
 		<p class="p1"><span class="s1">If you are boarding your pet with us, please leave all personal items at home, including towels, blankets, toys, collars, leashes, and harnesses and disinfect your carrier before dropping off.</span></p>
-		<p class="p1"><span class="s1"><b>PLEASE NOTE:   SOME VETERINARY HOSPITALS HAVE CLOSED AND MANY ARE NOT ALLOWING CLIENTS IN THEIR BUILDINGS, MEETING YOU AT YOUR CAR ONLY TO GET YOUR PET, A MEASURE WE MAY NEED TO TAKE.</b></span></p>
 		<p class="p1"><span class="s1">We appreciate your following these guidelines and trusting us with your pet's care.</span></p>
 		<p class="p1"><span class="s1">Dr. Nancy O'Leary and The Worcester Cat Hospital and Bird Clinic's Staff.</span></p>
 	</div>
