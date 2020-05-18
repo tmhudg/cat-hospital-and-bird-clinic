@@ -11,9 +11,9 @@ draft: false
 		<h2 class="covid-header">** NOTICE **</h2>
 		<p class="p1"><span class="s1">Dear Clients, regarding Covid 19 and our current availability:</span></p>
 		<p class="p1"><span class="s1">Please help us keep our doors open and our staff and you virus free.</span></p>
+		<p class="p1"><span class="s1">Note that our hours are subject to change. Please call ahead to be sure we are open.</span></p>
 		<p class="p1"><span class="s1">We have implemented a new procedure for pet care at this time:</span></p>
 		<ul>
-		<li class="p1"><span class="s1">Note that our hours are subject to change. Please call ahead to be sure we are open.</span></li>
 		<li class="p1"><span class="s1">Please call the office when you arrive at the building. We will take your information and let you know when you should place your pet, in a carrier, on a table outside the front door.</span></li>
 		<li class="p1"><span class="s1">For everyone's safety, clients are no longer admitted to the building.</span></li>
 		</ul>
