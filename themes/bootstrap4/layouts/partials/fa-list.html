@@ -1,0 +1,11 @@
+{{ $list := .Scratch.Get "list"}}
+<div class="mb-3 pb-1">
+	
+	
+	<span class="h2 border-bottom border-danger">{{ $list }}</span>
+</div>
+<ul class="fa-ul">
+{{ range index $.Site.Data.lists $list }}
+	<li class="mb-2"><span class="fa-li"><i class="fas fa-check-circle cat-purple"></i></span>{{ . }}</li>
+{{ end }}
+</ul>

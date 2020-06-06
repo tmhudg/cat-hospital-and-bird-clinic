@@ -38,6 +38,10 @@ paginate = 12
   url = "/services"
   weight = -10
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # Theme variables
 #
