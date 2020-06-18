@@ -1,30 +1,17 @@
 {{ define "main" }}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<form name="testform" data-netlify="true">
-  <div class="form-group row">
-    <label for="Client Name" class="col-4 col-form-label">Your Name</label> 
-    <div class="col-8">
-      <input id="Client Name" name="Client Name" type="text" class="form-control" required="required">
-    </div>
+<nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active" id="nav-cat-tab" data-toggle="tab" href="#nav-cat" role="tab" 
+    aria-controls="nav-cat" aria-selected="true">Cats</a>
+    <a class="nav-item nav-link" id="nav-avian-tab" data-toggle="tab" href="#nav-avian" role="tab" 
+    aria-controls="nav-avian" aria-selected="false">Avian</a>
   </div>
-  <div class="form-group row">
-    <label for="Pet Name" class="col-4 col-form-label">Pet's Name</label> 
-    <div class="col-8">
-      <input id="Pet Name" name="Pet Name" type="text" class="form-control">
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="Owned Duration" class="col-4 col-form-label">How long have you owned your cat</label> 
-    <div class="col-8">
-      <input id="Owned Duration" name="Owned Duration" type="text" class="form-control">
-    </div>
-  </div> 
-  <div class="form-group row">
-    <div class="offset-4 col-8">
-      <button name="submit" type="submit" class="btn btn-primary">Submit</button>
-    </div>
-  </div>
-</form>
+</nav>
+<p></p>
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-cat" role="tabpanel" aria-labelledby="nav-cat-tab"></div>
+  <div class="tab-pane fade" id="nav-avian" role="tabpanel" aria-labelledby="nav-avian-tab">{{partial "bird-form.html" .}}</div>
+</div>
 <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
 {{ end }}
