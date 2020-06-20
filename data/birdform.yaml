@@ -1,0 +1,444 @@
+Fields:
+  - Name: Name
+    Prompt: What is your name?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+
+  - Name: PetName
+    Prompt: Pet's name?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+
+  - Name: TypeOfBird
+    Prompt: What type of bird do you have?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+
+  - Name: HowLongOwned
+    Prompt: How long have you owned your bird?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+
+  - Name: WhereGet
+    Prompt: Where did you get your bird?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+  
+  - Name: HowOld
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How old is your bird?
+    Type: text
+
+  - Name: BirthDate
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Birth Date
+    Type: text
+
+  - Name: Sex
+    Prompt: Do you know the sex of your bird?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: Select
+    Options:
+      - Male
+      - Female
+      - Don't know
+
+  - Name: HowSexDetermined
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, how was this determined?
+    Type: text
+
+  - Name: FirstBird
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Is this your first bird?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: OtherBirds
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Are there other birds in the house?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: OtherBirdQuant
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, what kinds and how many?
+    Type: text
+
+  - Name: OtherBirdTime
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How long have you had them?
+    Type: text
+
+  - Name: OtherBirdAcquire
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Where did you acquire them?
+    Type: text
+
+  - Name: SameRoom
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Are they in the same room as your other bird?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: OtherPets
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you have other pets?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: OtherPetsAcquire
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, where did you acquire them?
+    Type: text
+
+  - Name: Vet
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Has your bird ever been to the Vet?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+      - Don't know
+
+  - Name: WhenVet
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, where and when?
+    Type: text
+
+  - Name: Meds
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Is your bird currently on any medication?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: WhatMeds
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, what types?
+    Type: text
+
+  - Name: WhatRoom
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What room is your bird kept in?
+    Type: text
+
+  - Name: ChangedRoom
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Have you changed rooms recently?
+    Type: text
+
+  - Name: Clipped
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Are your bird's wings clipped?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+      - Don't know
+
+  - Name: OutOfCage
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Is your bird ever out of the cage?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: Supervised
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, is he/she supervised?
+    Type: text
+
+  - Name: Chew
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Does your bird chew on things, either in or out of the cage?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: WhatChew
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, what?
+    Type: text
+
+  - Name: ItemsCage
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What items do you have in your bird's cage?
+    Type: text
+
+  - Name: Material
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What material is your cage made of? Please describe it (for example gold, silver, black, etc.)
+    Type: text
+
+  - Name: Teflon
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you cook with Teflon or coated (non-stick) cookware?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: Pam
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you use spray Pam (cooking spray)?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: Food
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What do you feed your bird? (List all foods and the estimated amount and frequency)
+    Type: text
+
+  - Name: Vit
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you give your bird vitamins and/or supplements?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: HowVit
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How do you give them (e.g. in water, food, etc.)?
+    Type: text
+
+  - Name: FreqVit
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How often do you give them?
+    Type: text
+
+  - Name: Grit
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you feed your bird grit and/or gravel?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: Mite
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you have a mite protector in your bird's cage?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: Sandpaper
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you use sandpaper perches?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: Bathe
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you bathe or spray your bird?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: BatheFreq
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, how often?
+    Type: text
+
+  - Name: UVA
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you have a UVA/UVB light?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: UVAPower
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What is the power?
+    Type: text
+
+  - Name: UVAKind
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What kind of bulb (e.g. long, round)?
+    Type: text
+
+  - Name: UVAOld
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How old is the bulb?
+    Type: text
+
+  - Name: CleanFreq
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How often do you completely clean your bird's cage?
+    Type: text
+
+  - Name: CleanWhat
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What do you use to clean it?
+    Type: text
+
+  - Name: Temp
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: At what temperature is your home usually kept?
+    Type: text
+
+  - Name: BottomCage
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What do you use on the bottom of your bird's cage?
+    Type: text
+
+  - Name: WaterFreq
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How often do you change your bird's water?
+    Type: text
+
+  - Name: WaterType
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What type of water do you give your bird (bottled, town, well, etc.?
+    Type: text
+
+  - Name: Egg
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Has your bird ever laid an egg?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: EggFreq
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, when does she lay and how often?
+    Type: text
+
+  - Name: Molt
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: When did your bird last molt?
+    Type: text
+
+  - Name: Outdoors
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Is your bird ever exposed to the outdoors?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: OtherBirdsNotOwn
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Is your bird ever exposed to birds other than your own?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: OtherBirdsNotOwnDet
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If yes, please explain?
+    Type: text
+
+  - Name: Smoke
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Does anyone in your household smoke?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: Changes
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Please describe any changes in the household recently
+    Type: Area
+
+  - Name: Immune
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Are there any individuals in your household who are either infants or elderly, or that may have an immune suppressive disorder (like diabetes, on chemotherapy, etc)?
+    Type: Area
+
+  - Name: Scale
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you own a gram scale?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: Concerns
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: List any and all problems or concerns you have about your bird today
+    Type: Area
