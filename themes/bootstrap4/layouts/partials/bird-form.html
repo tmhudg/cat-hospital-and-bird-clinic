@@ -13,11 +13,11 @@
           </div>
         {{ end }}
       {{ else }}
-        <label for="{{ $formdata.Name }}">{{ $formdata.Prompt }}</label>
+        <label for="{{ $formdata.Name }}id">{{ $formdata.Prompt }}</label>
         {{ if eq $formdata.Type "Area" }}
-          <textarea row="3" type="text" id="{{ $formdata.Name }}" name="{{ $formdata.Name }}" class="form-control"></textarea>
+          <textarea row="3" type="text" id="{{ $formdata.Name }}id" name="{{ $formdata.Name }}" class="form-control"></textarea>
         {{ else }}
-          <input id="{{ $formdata.Name }}" name="{{ $formdata.Name }}" type="{{ $formdata.Type }}" class="form-control">
+          <input id="{{ $formdata.Name }}id" name="{{ $formdata.Name }}" type="{{ $formdata.Type }}" class="form-control">
         {{ end }}
       {{ end }}
     </div>
