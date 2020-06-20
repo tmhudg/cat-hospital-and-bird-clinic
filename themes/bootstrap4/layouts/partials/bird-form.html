@@ -6,9 +6,9 @@
         {{ $formdata.Prompt }}<br/>
         {{ range $formdata.Options }}
           <div class="form-check form-check-inline">
-            <input id="{{ $formdata.Name }}" name="{{ $formdata.Name }}" 
+            <input id="{{ $formdata.Name }}id" name="{{ $formdata.Name }}" 
               type="radio" class="form-check-input" value="{{ . }}">
-            <label class="form-check-label" for="{{ $formdata.Name }}">{{ . }}</label>
+            <label class="form-check-label" for="{{ $formdata.Name }}id">{{ . }}</label>
           </div>
         {{ end }}
       {{ else }}
