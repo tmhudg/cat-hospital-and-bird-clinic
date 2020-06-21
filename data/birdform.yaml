@@ -111,10 +111,10 @@ Fields:
       - "Yes"
       - "No"
 
-  - Name: OtherPetsAcquire
+  - Name: OtherPetsKinds
     ColumnMed: 12
     ColumnLg: 6
-    Prompt: If so, where did you acquire them?
+    Prompt: If so, what kinds?
     Type: text
 
   - Name: Vet
@@ -127,10 +127,16 @@ Fields:
       - "No"
       - Don't know
 
-  - Name: WhenVet
+  - Name: VetReason
     ColumnMed: 12
     ColumnLg: 6
-    Prompt: If so, where and when?
+    Prompt: If so, for what reason?
+    Type: text
+
+  - Name: VetName
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What Vet(s) did you see?
     Type: text
 
   - Name: Meds
@@ -244,6 +250,12 @@ Fields:
     Options:
       - "Yes"
       - "No"
+
+  - Name: VitKinds
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: if so, what kinds?
+    Type: text
 
   - Name: HowVit
     ColumnMed: 12
