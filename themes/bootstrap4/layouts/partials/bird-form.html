@@ -1,26 +1,27 @@
 <form name="avian-form" data-netlify="true">
   {{ range $formdata := $.Site.Data.birdform.Fields }}
-  <div class="form-row">
-    <div class="form-group col-md-{{ $formdata.ColumnMed }} col-lg-{{ $formdata.ColumnLg }}">
+  <div class="row">
       {{ if eq $formdata.Type "Select" }}
+        <label style="margin-bottom: 0" class="col-md-{{ $formdata.ColumnMed }} col-lg-{{ $formdata.ColumnLg }}  ">
         {{ $formdata.Prompt }}<br/>
-        {{ range $formdata.Options }}
           <div class="form-check form-check-inline">
-            <label>
+        {{ range $formdata.Options }}
+            <label class="form-check-inline">
             <input id="{{ $formdata.Name }}id" name="{{ $formdata.Name }}" 
               type="radio" class="form-check-input" value="{{ . }}">{{ . }}
             </label>
-          </div>
         {{ end }}
+          </div>
       {{ else }}
-        <label for="{{ $formdata.Name }}id">{{ $formdata.Prompt }}</label>
+        <label class="group col-md-{{ $formdata.ColumnMed }} col-lg-{{ $formdata.ColumnLg }}">
+        {{ $formdata.Prompt }}
         {{ if eq $formdata.Type "Area" }}
           <textarea row="3" type="text" id="{{ $formdata.Name }}id" name="{{ $formdata.Name }}" class="form-control"></textarea>
         {{ else }}
           <input id="{{ $formdata.Name }}id" name="{{ $formdata.Name }}" type="{{ $formdata.Type }}" class="form-control">
         {{ end }}
+        </label>
       {{ end }}
-    </div>
   </div>
   {{ end }}
     <button name="submit" type="submit" class="btn btn-primary">Submit</button>
