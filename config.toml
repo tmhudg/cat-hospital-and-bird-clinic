@@ -38,6 +38,11 @@ paginate = 12
   url = "/services"
   weight = -10
 
+[[menu.navbar]]
+  name = "Patient History Forms"
+  url = "/forms"
+  weight = 15
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
