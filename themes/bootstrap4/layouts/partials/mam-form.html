@@ -1,5 +1,5 @@
-<form name="feline-form" data-netlify="true">
-  {{ range $formdata := $.Site.Data.feline.Fields }}
+<form name="mammal-form" data-netlify="true">
+  {{ range $formdata := $.Site.Data.mammal.Fields }}
   <div class="row">
       {{ if eq $formdata.Type "Select" }}
         <label style="margin-bottom: 0" class="col-md-{{ $formdata.ColumnMed }} col-lg-{{ $formdata.ColumnLg }}  ">

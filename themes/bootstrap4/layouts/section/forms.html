@@ -19,13 +19,19 @@
     <a class="nav-item nav-link active" id="nav-avian-tab" data-toggle="tab" href="#nav-avian" role="tab" 
     aria-controls="nav-avian" aria-selected="true">Avian</a>
     <a class="nav-item nav-link " id="nav-cat-tab" data-toggle="tab" href="#nav-cat" role="tab" 
-    aria-controls="nav-cat" aria-selected="false">Cats</a>
+    aria-controls="nav-cat" aria-selected="false">Feline</a>
+    <a class="nav-item nav-link " id="nav-rep-tab" data-toggle="tab" href="#nav-rep" role="tab" 
+    aria-controls="nav-rep" aria-selected="false">Reptile</a>
+    <a class="nav-item nav-link " id="nav-mam-tab" data-toggle="tab" href="#nav-mam" role="tab" 
+    aria-controls="nav-mam" aria-selected="false">Mammal</a>
   </div>
 </nav>
 <p></p>
 <div class="tab-content" id="nav-tabContent">
   <div class="tab-pane fade show active" id="nav-avian" role="tabpanel" aria-labelledby="nav-avian-tab">{{partial "bird-form.html" .}}</div>
-  <div class="tab-pane fade " id="nav-cat" role="tabpanel" aria-labelledby="nav-cat-tab">Coming Soon!</div>
+  <div class="tab-pane fade " id="nav-cat" role="tabpanel" aria-labelledby="nav-cat-tab">{{partial "cat-form.html" .}}</div>
+  <div class="tab-pane fade " id="nav-rep" role="tabpanel" aria-labelledby="nav-rep-tab">{{partial "rep-form.html" .}}</div>
+  <div class="tab-pane fade " id="nav-mam" role="tabpanel" aria-labelledby="nav-mam-tab">{{partial "mam-form.html" .}}</div>
 </div>
 <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
 {{ end }}

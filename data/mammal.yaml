@@ -1,0 +1,233 @@
+Fields:
+  - Name: Name
+    Prompt: What is your name?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+
+  - Name: PetName
+    Prompt: Pet's name?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+
+  - Name: TypeOfBird
+    Prompt: What type of animal do you have?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+
+  - Name: HowLongOwned
+    Prompt: How long have you owned your pet?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+
+  - Name: WhereGet
+    Prompt: Where did you get your pet?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+  
+  - Name: HowOld
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How old is your pet?
+    Type: text
+
+  - Name: BirthDate
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Birth Date
+    Type: text
+
+  - Name: Vet
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Has your pet ever been to the Vet?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+      - Don't know
+
+  - Name: VetReason
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, for what reason?
+    Type: text
+
+  - Name: VetName
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What Vet(s) did you see?
+    Type: text
+
+  - Name: Spayed
+    Prompt: Has your pet been spayed/neutered?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: Select
+    Options:
+      - Male
+      - Female
+      - Don't know
+
+  - Name: Meds
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Is your pet currently on any medication?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: WhatMeds
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, what types?
+    Type: text
+
+  - Name: OtherPets
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you have other pets?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: OtherPetsKinds
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, what kinds?
+    Type: text
+
+  - Name: Food
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What do you feed your pet? (List all foods and the estimated amount and frequency)
+    Type: text
+
+  - Name: Vit
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you give your pet vitamins and/or supplements?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: VitKinds
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: if so, what kinds?
+    Type: text
+
+  - Name: FreqVit
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How often do you give them?
+    Type: text
+
+  - Name: WaterDispense
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What type of water dispenser do you use?
+    Type: text
+
+  - Name: WaterFreq
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How often do you change your pet's water?
+    Type: text
+
+  - Name: WaterType
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What type of water do you give your pet (bottled, town, well, etc.?
+    Type: text
+
+  - Name: Cage
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Describe the cage or enclosure (size, type, etc.)
+    Type: text
+
+  - Name: CageLoc
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Where is the cage located in the house?
+    Type: text
+
+  - Name: CageBottom
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What do you use on the bottom of your pet's cage?
+    Type: text
+
+  - Name: Litter
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Is your pet litter trained?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: LitterType
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, what type of litter do you use?
+    Type: text
+
+  - Name: CleanFreq
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How often do you completely clean your pet's cage?
+    Type: text
+
+  - Name: CleanWhat
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What do you use to clean it?
+    Type: text
+
+  - Name: ItemsCage
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What items do you have in your pet's cage?
+    Type: text
+
+  - Name: OutOfCage
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Is your pet ever out of the cage?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: Supervised
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, is he/she supervised?
+    Type: text
+
+  - Name: ChangesHouse
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Please describe any changes in the household recently
+    Type: Area
+
+  - Name: ChangesPet
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Please describe any recent changes in eating habits, drinking habits, urination, defecation, behavior habits, or attitude
+    Type: Area
+
+  - Name: Concerns
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: List any and all problems or concerns you have about your pet today
+    Type: Area

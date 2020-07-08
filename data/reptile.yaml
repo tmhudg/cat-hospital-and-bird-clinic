@@ -1,0 +1,292 @@
+Fields:
+  - Name: Name
+    Prompt: What is your name?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+
+  - Name: PetName
+    Prompt: Pet's name?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+
+  - Name: Type
+    Prompt: What type of reptile do you have?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+
+  - Name: HowLongOwned
+    Prompt: How long have you owned your reptile?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+
+  - Name: WhereGet
+    Prompt: Where did you get your reptile?
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+  
+  - Name: HowOld
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How old is your reptile?
+    Type: text
+
+  - Name: BirthDate
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Birth Date
+    Type: text
+
+  - Name: OtherReps
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Are there other reptiles in the house?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: OtherRepQuant
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, what kinds and how many?
+    Type: text
+
+  - Name: OtherPets
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you have other pets?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: OtherPetsKinds
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, what kinds?
+    Type: text
+
+  - Name: Vet
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Has your reptile ever been to the Vet?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+      - Don't know
+
+  - Name: VetReason
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: If so, for what reason?
+    Type: text
+
+  - Name: VetName
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What Vet(s) did you see?
+    Type: text
+
+  - Name: Enclosure
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Descrive your reptile's enclosure (e.g. tank, aquarium, etc.) and size
+    Type: text
+
+  - Name: EnclosureBottom
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What do you use for the bottom of the enclosure?
+    Type: text
+
+  - Name: TempDay
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What temperature is the enclosure in the daytime?
+    Type: text
+
+  - Name: TempNight
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What temperature is the enclosure in the nighttime?
+    Type: text
+
+  - Name: TempMonitor
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How do you monitor the temperature?
+    Type: text
+
+  - Name: TempHeat
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How do you heat the enclosure (e.g. lights, heat rock, etc.)?
+    Type: text
+
+  - Name: UVA
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you have a UVA/UVB light?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: UVAPower
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What is the power?
+    Type: text
+
+  - Name: UVAKind
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What kind of bulb (e.g. long, round)?
+    Type: text
+
+  - Name: UVAOld
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How old is the bulb?
+    Type: text
+
+  - Name: UVAlocation
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Where is it located in the enclosure?
+    Type: text
+
+  - Name: Soak
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you have a water dish large enough for your reptile to soak in?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: Humidity
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you use any other methods for humidity (e.g. spray, bathtub, etc.)?
+    Type: text
+
+  - Name: HumidityGauge
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you have a hummidity gauge?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: HumidityPct
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What is the %humidity in the enclosure?
+    Type: text
+
+  - Name: Basking
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Does your reptile have a basking log?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: Hiding
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Does your reptile have a Hiding Box?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: ItemsCage
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: List any other items in the enclosure
+    Type: text
+
+  - Name: EncloseTime
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How much time per day does your reptile stay in its enclosure?
+    Type: text
+
+  - Name: CleanFreq
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How often do you completely clean your reptile's enclosure?
+    Type: text
+
+  - Name: CleanWhat
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What do you use to clean it?
+    Type: text
+
+  - Name: Food
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: List all foods you feed your reptile with the percentage/amount fed next to each item
+    Type: Area
+
+  - Name: Vit
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: Do you give vitamins and/or supplements?
+    Type: Select
+    Options:
+      - "Yes"
+      - "No"
+
+  - Name: VitKinds
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: if so, what kinds?
+    Type: text
+
+  - Name: VitFreq
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How often do you give them?
+    Type: text
+
+  - Name: VitAmount
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How much is given?
+    Type: text
+
+  - Name: WaterType
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: What type of water do you give your reptile (bottled, town, well, etc.?
+    Type: text
+
+  - Name: Shed
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How often does your reptile shed?
+    Type: text
+
+  - Name: Eliminations
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: How often does your reptile have eliminations?
+    Type: text
+
+  - Name: Concerns
+    ColumnMed: 12
+    ColumnLg: 6
+    Prompt: List any and all problems or concerns you have about your reptile today
+    Type: Area
