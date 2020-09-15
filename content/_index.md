@@ -37,7 +37,7 @@ draft: false
 		<img src="/images/bestOfWorcester.jpg" ></a>
 	</div>
 </div>
-</div>
+</div> 
 
 <div class="row main-page">
 	<div class="col-lg-8">
