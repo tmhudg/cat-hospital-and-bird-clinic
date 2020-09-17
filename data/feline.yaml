@@ -5,6 +5,12 @@ Fields:
     ColumnLg: 6
     Type: text
 
+  - Name: BestPhone
+    Prompt: Phone Number
+    ColumnMed: 12
+    ColumnLg: 6
+    Type: text
+
   - Name: PetName
     Prompt: Pet's name?
     ColumnMed: 12
