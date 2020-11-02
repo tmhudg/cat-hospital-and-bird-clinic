@@ -1,7 +1,7 @@
 ---
 title: "The Best Way to Show Thanks This Season Is With an Annual Checkup"
 type: "post"
-date: 2019-11-01
+date: 2020-11-01
 draft: false
 categories:
 - Health
