@@ -5,6 +5,14 @@ draft: false
 ---
 
 <div class="border-bottom border-danger mb-3">
+<div class="row covid">
+	<div class="col-12">
+		<h2 class="covid-header">** TEMPORARY CHANGE IN OFFICE HOURS **</h2>
+		<p class="p1"><span class="s1">Please note that the office will be closed from <strong>Wednesday April 21</strong> through <strong>Wednesday April 28</strong>. We will be unable to take messages or return calls during this time. </span></p>
+		<p class="p1"><span class="s1">Emergency numbers for local veterinarian services are located at the bottom of this page and available when calling the office number.</span></p>
+		<p class="p1"><span class="s1">Thanks for your patience and understanding. We'll see you soon!</span></p>
+	</div>
+</div>
 
 <div class="row covid">
 	<div class="col-12">
