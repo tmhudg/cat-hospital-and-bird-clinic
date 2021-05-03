@@ -5,46 +5,38 @@ draft: false
 ---
 
 <div class="border-bottom border-danger mb-3">
-<div class="row covid">
-	<div class="col-12">
-		<h2 class="covid-header">** TEMPORARY CHANGE IN OFFICE HOURS **</h2>
-		<p class="p1"><span class="s1">Please note that the office will be closed from <strong>Wednesday April 21</strong> through <strong>Wednesday April 28</strong>. We will be unable to take messages or return calls during this time. </span></p>
-		<p class="p1"><span class="s1">Emergency numbers for local veterinarian services are located at the bottom of this page and available when calling the office number.</span></p>
-		<p class="p1"><span class="s1">Thanks for your patience and understanding. We'll see you soon!</span></p>
-	</div>
-</div>
 
-<div class="row covid">
-	<div class="col-12">
-		<h2 class="covid-header">** NOTICE **</h2>
-		<p class="p1"><span class="s1">Dear Clients, regarding Covid 19 and our current availability:</span></p>
-		<p class="p1"><span class="s1">Please help us keep our doors open and our staff and you virus free.</span></p>
-		<p class="p1"><span class="s1">Note that our hours are subject to change. Please call ahead to be sure we are open.</span></p>
-		<p class="p1"><span class="s1">We have implemented a new procedure for pet care at this time:</span></p>
-		<ul>
-		<li class="p1"><span class="s1">Please place your pet in a secure carrier before arriving at our hospital.</span>
-		<li class="p1"><span class="s1">Then, call the office when you arrive at the building. We will take your information and let you know when you should place your pet, still in the carrier, on a table outside the front door.</span></li>
-		<li class="p1"><span class="s1">For everyone's safety, clients are no longer admitted to the building.</span></li>
-		</ul>
-		<p class="p1"><span class="s1">If you are boarding your pet with us, please leave all personal items at home, including towels, blankets, toys, collars, leashes, and harnesses and disinfect your carrier before dropping off.</span></p>
-		<p class="p1"><span class="s1">We appreciate your following these guidelines and trusting us with your pet's care.</span></p>
-		<p class="p1"><span class="s1">Dr. Nancy O'Leary and The Worcester Cat Hospital and Bird Clinic's Staff.</span></p>
+	<div class="row covid">
+		<div class="col-12">
+			<h2 class="covid-header">** NOTICE **</h2>
+			<p class="p1"><span class="s1">Dear Clients, regarding Covid 19 and our current availability:</span></p>
+			<p class="p1"><span class="s1">Please help us keep our doors open and our staff and you virus free.</span></p>
+			<p class="p1"><span class="s1">Note that our hours are subject to change. Please call ahead to be sure we are open.</span></p>
+			<p class="p1"><span class="s1">We have implemented a new procedure for pet care at this time:</span></p>
+			<ul>
+			<li class="p1"><span class="s1">Please place your pet in a secure carrier before arriving at our hospital.</span>
+			<li class="p1"><span class="s1">Then, call the office when you arrive at the building. We will take your information and let you know when you should place your pet, still in the carrier, on a table outside the front door.</span></li>
+			<li class="p1"><span class="s1">For everyone's safety, clients are no longer admitted to the building.</span></li>
+			</ul>
+			<p class="p1"><span class="s1">If you are boarding your pet with us, please leave all personal items at home, including towels, blankets, toys, collars, leashes, and harnesses and disinfect your carrier before dropping off.</span></p>
+			<p class="p1"><span class="s1">We appreciate your following these guidelines and trusting us with your pet's care.</span></p>
+			<p class="p1"><span class="s1">Dr. Nancy O'Leary and The Worcester Cat Hospital and Bird Clinic's Staff.</span></p>
+		</div>
 	</div>
-</div>
 
-<div class="row bestofworcester">
-	<div class="col-8">
-		<h2>Voted "Best of Worcester" Again!!</h2>
-		<p>Thanks to our outstanding clients and wonderful staff, we've been selected for the <b>Best of Worcester Award for both 2019 and 2020!</b></p>
-		<p>Call us for an appointment for your pet today and experience our quality and caring for yourself.</p>
-		<a href="https://worcester.2020-management-honor-recognition.com/PressReleaseub.aspx?cc=DMM6-WBMG-XQCC" target="_blank">Press Release</a>
+	<div class="row bestofworcester">
+		<div class="col-8">
+			<h2>Voted "Best of Worcester" Again!!</h2>
+			<p>Thanks to our outstanding clients and wonderful staff, we've been selected for the <b>Best of Worcester Award for both 2019 and 2020!</b></p>
+			<p>Call us for an appointment for your pet today and experience our quality and caring for yourself.</p>
+			<a href="https://worcester.2020-management-honor-recognition.com/PressReleaseub.aspx?cc=DMM6-WBMG-XQCC" target="_blank">Press Release</a>
+		</div>
+		<div class="col">
+			<a href="https://worcester.2020-management-honor-recognition.com/PressReleaseub.aspx?cc=DMM6-WBMG-XQCC" target="_blank">
+			<img src="/images/bestOfWorcester2020.jpg" >
+			<img src="/images/bestOfWorcester.jpg" ></a>
+		</div>
 	</div>
-	<div class="col">
-		<a href="https://worcester.2020-management-honor-recognition.com/PressReleaseub.aspx?cc=DMM6-WBMG-XQCC" target="_blank">
-		<img src="/images/bestOfWorcester2020.jpg" >
-		<img src="/images/bestOfWorcester.jpg" ></a>
-	</div>
-</div>
 </div> 
 
 <div class="row main-page">
