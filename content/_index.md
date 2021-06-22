@@ -25,7 +25,7 @@ draft: false
 </div>
 
 <div class="row bestofworcester">
-	<div class="col-4">
+	<div class="col-6">
 		<h2>Voted "Best of Worcester" Again!!</h2>
 		<p>Thanks to our outstanding clients and wonderful staff, we've been selected for the <b>Best of Worcester Award for the third year in a row!</b></p>
 		<p>Call us for an appointment for your pet today and experience our quality and caring for yourself.</p>
