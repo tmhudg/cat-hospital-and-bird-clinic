@@ -27,12 +27,13 @@ draft: false
 <div class="row bestofworcester">
 	<div class="col-8">
 		<h2>Voted "Best of Worcester" Again!!</h2>
-		<p>Thanks to our outstanding clients and wonderful staff, we've been selected for the <b>Best of Worcester Award for both 2019 and 2020!</b></p>
+		<p>Thanks to our outstanding clients and wonderful staff, we've been selected for the <b>Best of Worcester Award for the third year in a row!</b></p>
 		<p>Call us for an appointment for your pet today and experience our quality and caring for yourself.</p>
 		<a href="https://worcester.2020-management-honor-recognition.com/PressReleaseub.aspx?cc=DMM6-WBMG-XQCC" target="_blank">Press Release</a>
 	</div>
 	<div class="col">
-		<a href="https://worcester.2020-management-honor-recognition.com/PressReleaseub.aspx?cc=DMM6-WBMG-XQCC" target="_blank">
+		<a href="https://worcester.companyaward-notification-2021.net/PressReleaseub.aspx?cc=DMNC-XBMG-XQCC" target="_blank">
+		<img src="/images/bestOfWorcester2021.jpg" >
 		<img src="/images/bestOfWorcester2020.jpg" >
 		<img src="/images/bestOfWorcester.jpg" ></a>
 	</div>
